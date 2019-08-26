@@ -4,20 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="css/estilos.css" />
     <title>Práctica 1</title>
-    <style>
-      table,
-      td,
-      th {
-        border: 1px solid black;
-        border-collapse: collapse;
-      }
-    </style>
   </head>
   <body>
     <h1>Jonathan Nuñez</h1>
-    <div style="width: 500px">
-      <h2>Acerca de mí</h2>
+    <div class="secciones">
+      <h2 id="titulo">Acerca de mí</h2>
       <p>
         Mi nombre es Jonathan Nuñez. Soy estudiante de Ingeniería en Informática
         en CUCEI. Nací el 15 de agosto de 1998, por lo que actualmente tengo 21
@@ -62,13 +55,28 @@
       </ol>
     </div>
     <div>
-      <h2>Persona que admiro</h2>
-      <p>
-        <img src="" alt="" />
-        <i>Contenido genérico en itálicas</i>
-      </p>
-      <p>
-        <i><strong>Contenido genérico en negritas</strong></i>
+      <h2>Shigeru Miyamoto</h2>
+      <p class="centrado">
+        <a href="https://es.wikipedia.org/wiki/Shigeru_Miyamoto">
+          <img
+            src="https://vignette.wikia.nocookie.net/nintendo/images/e/e6/Shigeru_Miyamoto.jpg/revision/latest?cb=20130706154704&path-prefix=es"
+            alt="Shigeru Miyamoto"
+          />
+        </a>
+        <br />
+        Considerado como uno de los desarrolladores de videojuegos más
+        talentosos y prolíficos, <strong>Shigeru Miyamoto</strong> ha sido capaz
+        de crear muchas de las franquisias más icónicas de Nintendo.
+        Influenciado por las vivencias de su vida cotidiana ha sido capaz de
+        crear mundos fantásticos con personajes muy carismáticos, dando siempre
+        la versión más óptima de cada uno de sus productos. A pesar de estar
+        trabajando hasta con un alrededor de 400 personas en proyectos
+        simultáneos, <strong>Miyamoto</strong>
+        ha declarado que le gusta centrarse en ellos individualmente: uno por
+        uno. Su gran exigencia le ha orillado a retrasar lanzamientos, sin
+        embargo, lo hace en defensa de la gran cota de calidad que deben
+        cumplir, por lo que cada atraso significa un esfuerzo por dar al público
+        sólo lo mejor.
       </p>
     </div>
     <div>
@@ -100,7 +108,7 @@
         </tbody>
       </table>
     </div>
-    <hr style="border-width: 5px" />
+    <hr />
     <div>
       <a href="form.html">Formulario</a>
     </div>

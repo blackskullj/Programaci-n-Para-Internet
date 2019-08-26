@@ -1,0 +1,70 @@
+#titulo {
+  text-decoration: underline;
+}
+
+.secciones {
+  text-align: right;
+  font-family: "Fjalla One", sans-serif;
+}
+
+.centrado {
+  text-align: center;
+  font-style: italic;
+}
+
+h1 {
+  color: darkcyan;
+  font-size: 30px;
+}
+
+p {
+  border: none;
+  margin: 10px;
+  padding: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: cornflowerblue;
+}
+
+a:hover {
+  color: darkmagenta;
+}
+
+ul {
+  list-style-type: circle;
+}
+
+ol {
+  list-style-type: hiragana;
+}
+
+body {
+  background-color: #efccff;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+table {
+  background-color: darkorchid;
+  color: whitesmoke;
+}
+
+th {
+  background-color: hotpink;
+}
+
+img {
+  width: 325px;
+  height: 302px;
+  float: right;
+}
+
+div {
+  width: 500px;
+  padding: 20px;
+}
+
+hr {
+  border-width: 5px;
+}
